@@ -1,5 +1,5 @@
-app.collections.Books = Backbone.Collection.extend({
-  model : app.models.Book,
+var Books = Backbone.Collection.extend({
+  model : Book,
   url : '/books',
 
   initialize: function(){

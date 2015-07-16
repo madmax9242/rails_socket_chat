@@ -16,7 +16,7 @@
 //= require underscore
 //= require backbone
 //= require socket.io
-//= require app
+
 //= require backbone_rails_sync
 //= require backbone_datalink
 //= require backbone/rails_socket_chat

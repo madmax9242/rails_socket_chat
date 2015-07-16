@@ -1,6 +1,6 @@
 class Book < ActiveRecord::Base
 
-  attr_accessible :num_pages, :title
+  #attr_accessor :num_pages, :title
   after_create {|book| book.message 'create' }
   after_update {|book| book.message 'update' }
   after_destroy {|book| book.message 'destroy' }
